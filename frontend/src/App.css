@@ -1,0 +1,50 @@
+
+
+/* default styles for desktop */
+.my-custom-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.my-custom-page h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-custom-page p {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-custom-page img {
+  width: 45%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* styles for mobile */
+@media (max-width: 767px) {
+  .my-custom-page {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+  }
+
+  .my-custom-page h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .my-custom-page p {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .my-custom-page img {
+    width: 100%;
+  }
+}

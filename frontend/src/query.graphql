@@ -1,0 +1,9 @@
+
+
+query MyCustomPageQuery {
+  myCustomPageData {
+    field1
+    field2
+    // add additional fields as needed
+  }
+}
